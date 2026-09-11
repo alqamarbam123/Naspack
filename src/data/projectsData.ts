@@ -1,0 +1,177 @@
+import { Project } from '../types';
+
+export const PROJECTS_DATA: Project[] = [
+  {
+    id: 'oud-al-noor-rigid-box',
+    title: 'Oud Al-Noor Signature Rigid Box',
+    category: 'luxury',
+    client: 'Al Noor Parfums Qatar',
+    location: 'Doha, Qatar',
+    year: '2025',
+    description: 'Bespoke hand-wrapped rigid magnetic closure presentation box engineered for high-concentration Qatari artisanal oud oil and pure dehn al oud flacon.',
+    detailedStory: 'Crafted specifically for the luxury fragrance market in Qatar, this packaging combines 1400gsm Dutch greyboard with deep slate soft-touch velvet paper. The front flap integrates concealed neodymium magnets with a 0.2mm tolerance tactile closure snap. Finished with precision multi-level gold hot-foil stamping and custom-molded high-density EVA foam lined with black microsuede.',
+    primaryImage: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Luxury Rigid Box', 'Hot Foil Stamping', 'Magnetic Closure', 'Suede Inlay'],
+    packagingType: 'Book-Style Rigid Box with Neodymium Catch',
+    finishDetails: 'Matte Soft-Touch Lamination + 24k Gold Kurz Hot Foil Stamping + Blind Deboss Monogram',
+    dimensions: '160mm x 160mm x 65mm',
+    photographyCredits: 'Studio Naspack Qatar (Industrial Area Studio 04)',
+    isFeatured: true
+  },
+  {
+    id: 'doha-specialty-roasters-pouches',
+    title: 'Doha Single Origin Stand-Up Pouches',
+    category: 'food',
+    client: 'Doha Specialty Coffee Roasters',
+    location: 'Lusail City, Qatar',
+    year: '2025',
+    description: 'High-barrier compostable multi-layer coffee pouches with Swiss-engineered degassing valves and custom tactile matte varnish.',
+    detailedStory: 'Designed to withstand Qatar’s high summer ambient temperatures while maintaining oxygen levels below 0.5%. We co-engineered an EVOH bio-barrier substrate that provides 18 months of fresh shelf life. The typography draws inspiration from Qatari maritime calligraphy paired with minimalist Scandinavian layout spacing.',
+    primaryImage: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Food-Grade', 'Compostable Bio-Film', 'Degassing Valve', 'Matte Lacquer'],
+    packagingType: 'Gusseted Stand-Up Pouch with Pocket Zipper',
+    finishDetails: 'Soft Matte Tactile Varnish + Registered Spot UV + Tear-Notch Sealing',
+    dimensions: '135mm x 210mm + 70mm Bottom Gusset',
+    photographyCredits: 'Studio Naspack Commercial Photography Unit',
+    isFeatured: true
+  },
+  {
+    id: 'al-reem-botanicals-skincare',
+    title: 'Al-Reem Desert Botanicals Skincare Suite',
+    category: 'cosmetics',
+    client: 'Al-Reem Organics Qatar',
+    location: 'The Pearl-Qatar',
+    year: '2024',
+    description: 'Minimalist pharmaceutical-grade cosmetic carton collection with structural internal shock tabs for dropper bottles.',
+    detailedStory: 'A masterclass in restraint and sustainability. Utilizing 100% post-consumer FSC certified unbleached virgin pulp board with soy-based pantone inks. Each carton is machine die-cut with integrated crash-lock bottoms that withstand high-speed automated co-packaging lines in our Doha facility.',
+    primaryImage: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1608248597359-5613532b4042?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Cosmetics Carton', 'FSC Recycled', 'Soy Ink', 'Crash-Lock Base'],
+    packagingType: 'Reverse Tuck End Folding Carton with Custom Bottle Nest',
+    finishDetails: 'FSC 350gsm Nordic Paperboard + Water-based Silk Coating + Sculpted Micro-Deboss',
+    dimensions: '45mm x 45mm x 120mm',
+    photographyCredits: 'Studio Naspack Product Staging Team',
+    isFeatured: true
+  },
+  {
+    id: 'qatar-dates-gourmet-hamper',
+    title: 'Royal Medjool Keepsake Hexagonal Hamper',
+    category: 'luxury',
+    client: 'Rawnaq Al Nakheel Qatar',
+    location: 'Al Rayyan, Qatar',
+    year: '2025',
+    description: 'Architectural hexagonal luxury gift box designed for premium stuffed dates with gilded acrylic partitions and magnetic lid.',
+    detailedStory: 'Engineered for national day and Ramadan gifting across corporate Qatar. The geometric hexagonal geometry is reinforced with double-walled greyboard and wrapped in emerald green metallic buckram textured cloth. Gold foil typography highlights traditional geometric mashrabiya motifs reinterpreted for contemporary minimalist sensibilities.',
+    primaryImage: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1607344645866-009c320c5ab8?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Luxury Hamper', 'Hexagonal Geometry', 'Food Safe Acrylic', 'Gold Foil'],
+    packagingType: 'Custom Multi-faceted Hexagonal Rigid Box',
+    finishDetails: 'Embossed Buckram Paper + Gold Gilt Edging + Clear Food-Contact PET Tray',
+    dimensions: '280mm diameter x 80mm depth',
+    photographyCredits: 'Studio Naspack Qatar Studio',
+    isFeatured: true
+  },
+  {
+    id: 'eco-kraft-doha-mailers',
+    title: 'Zero-Plastic Honeycomb Protective Mailers',
+    category: 'eco',
+    client: 'Q-Express E-Commerce Logistics',
+    location: 'Doha Industrial Area, Qatar',
+    year: '2024',
+    description: '100% recyclable expandable honeycomb paper padded envelopes replacing bubble wrap for Qatari online retailers.',
+    detailedStory: 'In alignment with Qatar National Vision 2030 environmental initiatives, Naspack developed an automated die-cut expandable honeycomb paper mailer. Features dual peel-and-seal tamper-evident adhesive strips for easy customer returns and water-resistant unbleached kraft exterior.',
+    primaryImage: 'https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Zero Plastic', 'Eco Kraft', 'Tamper Evident', 'E-commerce'],
+    packagingType: 'Curbside Recyclable Padded Paper Mailer',
+    finishDetails: '120gsm Unbleached Wet-Strength Kraft + Expandable Kraft Cushion Core',
+    dimensions: '240mm x 320mm + 50mm Lip',
+    photographyCredits: 'Studio Naspack Still Life Dept',
+    isFeatured: false
+  },
+  {
+    id: 'fmcg-contract-copacking-line',
+    title: 'National Dairy & Beverage Co-Packing System',
+    category: 'co-packing',
+    client: 'Baladna Retail Partnership',
+    location: 'Al Khor / Industrial Area, Qatar',
+    year: '2025',
+    description: 'High-speed automated contract shrink-bundling, multi-pack promotional carton packaging and custom date-coding.',
+    detailedStory: 'Naspack manages secondary contract packaging and co-packing for FMCG distributors in Qatar. Operating cleanroom production lines with optical vision inspection, automated hot-melt glue cartoners, and bundle heat-tunnels running 120 units per minute with 99.98% quality compliance.',
+    primaryImage: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Co-Packaging', 'Automated Sleeving', 'High Volume', 'ISO 22000'],
+    packagingType: 'Multipack Secondary Sleeves & Corrugated Outer Trays',
+    finishDetails: 'B-Flute Corrugated Board + Flexographic High-Resolution 4-Color Print',
+    dimensions: 'Custom Master Case: 400mm x 300mm x 250mm',
+    photographyCredits: 'Naspack Industrial Production Facility',
+    isFeatured: true
+  },
+  {
+    id: 'artisan-chocolatier-drawer-box',
+    title: 'Maison Noir Truffle Sliding Drawer Box',
+    category: 'food',
+    client: 'Maison Noir Qatar',
+    location: 'Katara Cultural Village, Doha',
+    year: '2025',
+    description: 'Matchbox-style slide-out rigid tray box with gold foil stamping and grosgrain ribbon pull-tab for handmade confectioneries.',
+    detailedStory: 'Engineered for luxury gourmet presentation, featuring an inner tray lined with grease-resistant glassine and 12 individual thermoformed gold-tinted cups. The outer sleeve incorporates a hidden anti-friction glide coating to ensure effortless opening feel.',
+    primaryImage: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Drawer Box', 'Ribbon Pull', 'Food Safe', 'Gold Foil'],
+    packagingType: 'Sliding Matchbox Rigid Sleeve & Drawer',
+    finishDetails: 'Soft Touch Charcoal Exterior + Metallic Gold Hot Foil + Custom Woven Pull Ribbon',
+    dimensions: '210mm x 150mm x 45mm',
+    photographyCredits: 'Naspack Studio Doha',
+    isFeatured: false
+  },
+  {
+    id: 'qatar-apparel-luxury-mailer',
+    title: 'Al-Kassas Couture Garment Presentation Box',
+    category: 'retail',
+    client: 'Al-Kassas Haute Couture',
+    location: 'Lusail Marina, Qatar',
+    year: '2024',
+    description: 'Collapsible magnetic flat-pack luxury box engineered for bespoke bisht and evening couture preservation.',
+    detailedStory: 'Solves warehouse storage constraints for retail luxury boutiques while delivering uncompromised prestige upon unboxing. Stores flat at 8mm profile and pops into a 3D structural rigid box via 4 high-shear self-adhesive corner triangles.',
+    primaryImage: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1200&q=80',
+    galleryImages: [
+      'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1200&q=80'
+    ],
+    tags: ['Collapsible Rigid Box', 'Fashion Apparel', 'Flat Storage', 'Minimalist'],
+    packagingType: 'Foldable Magnetic Flap Gift Box',
+    finishDetails: 'Pure Pearl White Uncoated 1200gsm Board + Subtle Embossed Monogram',
+    dimensions: '420mm x 320mm x 100mm',
+    photographyCredits: 'Studio Naspack Fashion & Textile Unit',
+    isFeatured: false
+  }
+];
